@@ -1,0 +1,14 @@
+def number
+print "Веди первое число "
+number_1 = gets.to_i
+print "Веди второе число "
+number_2 = gets.to_i
+
+if number_1 ==20 || number_2 == 20
+    puts 20
+ else  
+     puts (number_1 + number_2)
+     
+end
+end
+number
