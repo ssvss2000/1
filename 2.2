@@ -1,0 +1,16 @@
+def pacemon
+print "Введите количество покемонов: > "
+first = gets.to_i
+pokemons=[]
+i=0
+first.times do
+print "Введите имя покемона > "
+name = gets.chomp
+print "Введите цвет покемона: > "
+color = gets.chomp
+pokemons.append({'Name '=> name, 'color ' => color})
+
+end
+puts pokemons
+end
+pacemon
