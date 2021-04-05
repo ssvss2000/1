@@ -1,0 +1,11 @@
+puts "Введите ваше число и слово: > "
+word = gets.split(" ")
+word =word[1].downcase
+def pr(word)
+if word[-2, word.length].downcase == "cs"
+puts 2**word.length
+else
+puts word.reverse
+end
+end
+pr(word)
